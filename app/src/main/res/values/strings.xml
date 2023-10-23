@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="music">
+        <item>Rock</item>
+        <item>Reggaeton</item>
+        <item>Pop</item>
+        <item>Metal</item>
+        <item>Trap</item>
+        <item>K-pop</item>
+        <item>Phonk</item>
+    </string-array>
+</resources>

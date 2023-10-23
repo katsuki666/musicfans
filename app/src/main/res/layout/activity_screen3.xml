@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Gracias por ingresar a nuestra app. A Continuación encontraras play lists, información especifica, bandas y mucho mas de acuerdo a tu genero favorito! "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/butto1"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="ROCK"
+        android:textAlignment="center"
+        app:iconTint="#040404"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="188dp"
+        android:onClick="openLink1"
+        />
+
+    <Button
+        android:id="@+id/butto2"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="REGGAETON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="248dp"
+        android:onClick="openLink2"/>
+
+    <Button
+        android:id="@+id/butto3"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:text="POP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="308dp"
+        android:onClick="openLink3"/>
+
+    <Button
+        android:id="@+id/butto4"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="METAL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="374dp"
+        android:onClick="openLink4"/>
+
+    <Button
+        android:id="@+id/butto5"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="TRAP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="434dp"
+        android:onClick="openLink5"/>
+
+    <Button
+        android:id="@+id/butto6"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="KPOP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="498dp"
+        android:onClick="openLink6"/>
+
+    <Button
+        android:id="@+id/butto7"
+        android:layout_width="159dp"
+        android:layout_height="49dp"
+        android:text="PHONK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="562dp"
+        android:onClick="openLink7"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
